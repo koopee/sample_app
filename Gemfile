@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 ruby '2.0.0'
 
 gem 'rails', '4.0.0'
+gem 'bootstrap-sass'
 
 gem 'pg'
 group :development, :test do 
@@ -9,6 +10,7 @@ group :development, :test do
   gem 'guard-rspec'
   gem 'spork-rails', github: 'railstutorial/spork-rails'
   gem 'guard-spork'
+  gem 'guard-livereload'
   gem 'childprocess'
 end
 
