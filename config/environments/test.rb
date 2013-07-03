@@ -33,4 +33,7 @@ SampleApp::Application.configure do
 
   # Print deprecation notices to the stderr.
   config.active_support.deprecation = :stderr
+  
+  # Password security takes time in tests. Security not required in test environment
+  ActiveModel::SecurePassword.min_cost = true
 end
