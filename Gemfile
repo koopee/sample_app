@@ -20,6 +20,8 @@ group :test do
   gem 'capybara'
   gem 'libnotify'
   gem 'factory_girl_rails'
+  gem 'cucumber-rails'
+  gem 'database_cleaner'
 end
 
 gem 'sass-rails', '~> 4.0.0'
