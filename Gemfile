@@ -4,6 +4,9 @@ ruby '2.0.0'
 gem 'rails', '4.0.0'
 gem 'bootstrap-sass'
 gem 'bcrypt-ruby'
+gem 'faker'
+gem 'will_paginate'
+gem 'bootstrap-will_paginate'
 
 gem 'pg'
 group :development, :test do 
